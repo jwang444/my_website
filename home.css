@@ -1,0 +1,70 @@
+<style>
+	*
+body {
+	font-family: "Franklin Gothic Book", "Source Sans Pro", "Helvetica Neue", sans-serif;
+	margin: 0 auto;
+	background: #FFFFFF;
+	line-height: 1.8em;
+	padding: 12px;
+	box-sizing: border-box;
+	color: #000B29;
+}
+body, html {
+	height: 100%;
+}
+
+a {color: #888; text-decoration: none; border-bottom: 1px solid #EDB83D;}
+a:hover {border-bottom: 1px solid #D70026; color: #222}
+p {font-weight: 200; font-size: 20px;}
+
+/* Styles for name in top left */
+.name {
+	font-family: "Playfair Display";
+	font-size: 60px;
+	font-weight: 900;
+	padding-bottom: 20px;}
+#firstname {
+	color: #0000FF
+}
+#lastname {
+	color: #FFFF00
+}
+
+
+/* Styles for container element for all of body */
+.container {
+	margin: 0 auto;
+	width: 66%;
+	padding: 80px 12px;
+	overflow: auto;
+}
+
+/* Styles for links in footer */
+footer {
+	float: left;
+	margin: 0 auto;
+	bottom: 0px;
+}
+.social-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer .social-links li {
+	display: inline-block;
+	float: right;
+	padding-right:
+	40px;
+}
+.social-links a {
+	text-transform: uppercase;
+	font-family: "Courier New", "Quicksand", "Helvetica Neue", "Arial", sans-serif;
+	font-size: 12px;
+	letter-spacing: .15em;
+	color: #000;
+}
+.social-links a:hover {
+	border-bottom: 1px solid #D70026;
+	color: #555;
+}
+
